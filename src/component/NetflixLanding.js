@@ -14,22 +14,22 @@ function NetflixLanding() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link" aria-current="page" href="#">Home</a>
+          <a className="nav-link text-white" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">TV Shows</a>
+          <a className="nav-link text-white" href="#">TV Shows</a>
         </li>
-        <li className="nav-link">Movies</li>
-        <li className="nav-link">News & Popular</li>
-        <li className="nav-link">My List</li>
+        <li className="nav-link text-white">Movies</li>
+        <li className="nav-link text-white">News & Popular</li>
+        <li className="nav-link text-white">My List</li>
   
       </ul>
-      <form className="d-flex">
+      <div className="navbar-nav ms-auto">
+      <i class="uil uil-search text-light me-2 mt-2"></i>
+      <a href="#" className="nav-link text-white ">Kids</a>
         
-        <i class="uil uil-search text-light me-3"></i>
-        
-        <i class="uil uil-bell text-light"></i>
-      </form>
+        <i class="uil uil-bell text-light mt-2"></i>
+      </div>
     </div>
   </div>
 </nav>
